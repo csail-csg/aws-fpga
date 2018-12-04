@@ -36,7 +36,7 @@ set place_directive  ""
 set place_preHookTcl ""
 set place_postHookTcl ""
 
-set phys_opt 0
+set phys_opt 1
 set phys_options    ""
 set phys_directive  ""
 set phys_preHookTcl ""

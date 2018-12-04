@@ -92,6 +92,8 @@ static const struct pci_device_id edma_pci_tbl[] = {
 #else
 static DEFINE_PCI_DEVICE_TABLE(edma_pci_tbl) = {
 #endif
+	{ PCI_VENDOR_ID_AMAZON, 0xf000,
+	  PCI_ANY_ID, PCI_ANY_ID, 0, 0, PCI_ANY_ID},
 	{ PCI_VENDOR_ID_AMAZON, PCI_DEVICE_ID_FPGA,
 	  PCI_ANY_ID, PCI_ANY_ID, 0, 0, PCI_ANY_ID},
 	{ 0, }

@@ -1086,7 +1086,7 @@ module sh_bfm #(
          cmd.last = 0;
          
          if(cl_sh_pcim_awsize != 6) begin
-          $display("FATAL ERROR: AwSize other than 6 are not supported");
+          $display("FATAL ERROR: AwSize other than 6 are not supported %h", cl_sh_pcim_awsize);
           $finish;
          end
          
@@ -1189,7 +1189,7 @@ module sh_bfm #(
          cmd.last = 0;
 
          if(cl_sh_pcim_arsize != 6) begin
-          $display("FATAL ERROR: ArSize other than 6 are not supported");
+          $display("FATAL ERROR: ArSize other than 6 are not supported %d", cl_sh_pcim_arsize);
           $finish;
          end
          
